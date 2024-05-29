@@ -3,12 +3,12 @@ provider "aws" {
 }
 
 resource "aws_key_pair" "namdeployer_keye" {
-  key_name   = "llavesnake"
-  public_key = file("llavesnake.pub")
+  key_name   = "llavepiano"
+  public_key = file("llavepiano.pub")
 }
 
-resource "aws_security_group" "snake_sg" {
-  name        = "snake-security-group"
+resource "aws_security_group" "piano_sg" {
+  name        = "piano-security-group"
   description = "Habilita los puertos 22, 3000"
 
   ingress {
@@ -33,15 +33,15 @@ resource "aws_security_group" "snake_sg" {
  }
 }
 
-resource "aws_instance" "snake_instance" {
+resource "aws_instance" "piano_instance" {
   ami           = "ami-0e001c9271cf7f3b9"  
   instance_type = "t2.large"
-  key_name      = "llavesnake"
+  key_name      = "llavepiano"
 
-  security_groups = [aws_security_group.snake_sg.name]
+  security_groups = [aws_security_group.piano_sg.name]
 
   tags = {
-    Name = "Instancia-Snake"
+    Name = "Piano App - DOA"
   }
 
   user_data =<<-EOF
@@ -51,10 +51,10 @@ resource "aws_instance" "snake_instance" {
       sudo ufw allow 3000/tcp
       sudo ufw enable
       sudo apt install docker-compose -y
-      git clone https://github.com/dano796/app.git
+      git clone https://github.com/dano796/ProyectoFinalDOA.git
       cd app/
-      sudo docker build -t appsnake:v01 .
-      sudo docker run -d -p 3000:3000 appsnake:v01 npm start
+      sudo docker build -t apppiano:v01 .
+      sudo docker run -d -p 3000:3000 apppiano:v01 npm start
     EOF
 
   associate_public_ip_address = true
