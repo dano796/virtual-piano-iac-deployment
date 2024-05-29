@@ -100,5 +100,5 @@ desde un navegador web a través del puerto 3000, de la siguiente manera:
 
 ## Gracias!
 
-## Daniel Ortiz Aristizábal
-## ID 000186841
+### Daniel Ortiz Aristizábal 
+### ID 000186841
