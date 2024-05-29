@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_key_pair" "namdeployer_keye" {
   key_name   = "llavesnake"
-  public_key = file("~/.ssh/llavesnake.pub")
+  public_key = file("llavesnake.pub")
 }
 
 resource "aws_security_group" "snake_sg" {
