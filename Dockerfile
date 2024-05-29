@@ -7,6 +7,7 @@ COPY index.html .
 COPY script.js .
 COPY server.js .
 COPY style.css .
+COPY tunes ./tunes
 
 RUN npm install express
 
