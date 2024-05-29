@@ -52,9 +52,9 @@ resource "aws_instance" "piano_instance" {
       sudo ufw enable
       sudo apt install docker-compose -y
       git clone https://github.com/dano796/ProyectoFinalDOA.git
-      cd app/
-      sudo docker build -t apppiano:v01 .
-      sudo docker run -d -p 3000:3000 apppiano:v01 npm start
+      cd ProyectoFinalDOA/
+      sudo docker build -t piano:v01 .
+      sudo docker run -d -p 3000:3000 piano:v01 npm start
     EOF
 
   associate_public_ip_address = true
