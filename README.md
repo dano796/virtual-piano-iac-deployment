@@ -96,6 +96,9 @@ Una vez completado el comando `terraform apply`, puedes verificar en la consola 
 
 Una vez inicializada la instancia en AWS puedes verificar el funcionamiento de la app web. Para ello accede a la instancia
 desde un navegador web a través del puerto 3000, de la siguiente manera:
-`ip_instancia:3000`
+`ip_instancia:3000`.
 
 ## Gracias!
+
+## Daniel Ortiz Aristizábal
+## ID 000186841
