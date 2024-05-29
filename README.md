@@ -8,7 +8,9 @@ El código fuente de la aplicación se puede encontrar en: [Código Fuente](http
 ## Pasos para Desplegar
 ### Desplegar la Aplicación
 ```markdown
-Este repositorio contiene los archivos necesarios para desplegar y ejecutar una aplicación en un contenedor Docker, así como los archivos Terraform necesarios para desplegar automáticamente la infraestructura en AWS.
+Este repositorio contiene los archivos necesarios para desplegar y ejecutar una aplicación en un 
+contenedor Docker, así como los archivos Terraform necesarios para desplegar automáticamente 
+la infraestructura en AWS.
 
 ## Requisitos Previos
 
