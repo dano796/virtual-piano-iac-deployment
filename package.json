@@ -1,7 +1,7 @@
 {
-    "name": "snake-game",
+    "name": "virtual-piano",
     "version": "1.0.0",
-    "description": "Simple Snake Game",
+    "description": "Simple Virtual Piano",
     "main": "server.js",
     "scripts": {
         "start": "node server.js"

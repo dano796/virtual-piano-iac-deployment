@@ -1,14 +1,14 @@
-# Piano Online
+# Piano Virtual
 
 ## Descripción
-Esta es una aplicación web que simula un piano. La aplicación está desarrollada con HTML, CSS y JavaScript y se despliega automáticamente en una instancia de AWS EC2 utilizando Docker y Terraform.
+Esta es una aplicación web que permite tocar un piano virtual. Esta aplicación está desarrollada con HTML, CSS y JavaScript y se despliega automáticamente en una instancia de AWS EC2 utilizando Docker y Terraform.
 
 El código fuente de la aplicación se puede encontrar en: [CodingNepal](https://www.codingnepalweb.com/playable-piano-html-css-javascript/#google_vignette).
 
 ## Pasos para Desplegar
-### Desplegar la Aplicación
-Este repositorio contiene los archivos necesarios para desplegar y ejecutar una aplicación en un 
-contenedor Docker, así como los archivos Terraform necesarios para desplegar automáticamente 
+### Despliegue de la Aplicación
+Este repositorio contiene los archivos necesarios para desplegar y ejecutar la aplicación en un 
+contenedor Docker, así como el archivo Terraform necesario para desplegar automáticamente 
 la infraestructura en AWS.
 
 ## Requisitos Previos
@@ -16,7 +16,8 @@ la infraestructura en AWS.
 1. Tener instalado [Git](https://git-scm.com/).
 2. Tener instalado [Docker](https://www.docker.com/get-started).
 3. Tener instalado [Terraform](https://www.terraform.io/downloads).
-4. Una cuenta de AWS y configurar las credenciales de AWS en tu máquina local.
+4. Tener una cuenta de AWS
+5. Tener configuradas las credenciales de AWS en tu máquina local.
 
 ## Instrucciones
 
@@ -93,6 +94,8 @@ Se te pedirá confirmar la acción escribiendo `yes`. Terraform comenzará a cre
 
 Una vez completado el comando `terraform apply`, puedes verificar en la consola de AWS que los recursos han sido creados correctamente.
 
-Para verificar el funcionamiento de la app web, en un navegador, accede a la instancia a través del puerto 3000, así: ip_instancia:3000.
+Una vez inicializada la instancia en AWS puedes verificar el funcionamiento de la app web. Para ello accede a la instancia
+desde un navegador web a través del puerto 3000, de la siguiente manera:
+`ip_instancia:3000`
 
 ## Gracias!
