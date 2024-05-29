@@ -3,13 +3,14 @@ FROM node:14
 WORKDIR /usr/src/app
 
 COPY package*.json ./
+
+RUN npm install express
+
 COPY index.html .
 COPY script.js .
 COPY server.js .
 COPY style.css .
 COPY tunes ./tunes
-
-RUN npm install express
 
 EXPOSE 3000
 
