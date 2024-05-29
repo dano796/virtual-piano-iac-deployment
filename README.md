@@ -25,8 +25,8 @@ la infraestructura en AWS.
 Para clonar este repositorio, abre una terminal y ejecuta el siguiente comando:
 
 ```bash
-git clone https://github.com/dano796/app.git
-cd app
+git clone https://github.com/dano796/ProyectoFinalDOA.git
+cd ProyectoFinalDOA/
 ```
 
 ### 2. Instalar Terraform y Configurar la Cuenta de AWS
