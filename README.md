@@ -92,4 +92,6 @@ Se te pedirá confirmar la acción escribiendo `yes`. Terraform comenzará a cre
 
 Una vez completado el comando `terraform apply`, puedes verificar en la consola de AWS que los recursos han sido creados correctamente.
 
+Para verificar el funcionamiento de la app web, en un navegador, accede a la instancia a través del puerto 3000, así: ip_instancia:3000.
+
 ## Gracias!
