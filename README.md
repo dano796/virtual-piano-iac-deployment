@@ -3,11 +3,10 @@
 ## Descripción
 Esta es una aplicación web del clásico juego de la serpiente. La aplicación está desarrollada con HTML, CSS y JavaScript y se despliega automáticamente en una instancia de AWS EC2 utilizando Docker y Terraform.
 
-El código fuente de la aplicación se puede encontrar en: [Código Fuente](https://www.codingnepalweb.com/create-snake-game-htm-css-javascript/).
+El código fuente de la aplicación se puede encontrar en: [CodingNepal](https://www.codingnepalweb.com/create-snake-game-htm-css-javascript/).
 
 ## Pasos para Desplegar
 ### Desplegar la Aplicación
-```markdown
 Este repositorio contiene los archivos necesarios para desplegar y ejecutar una aplicación en un 
 contenedor Docker, así como los archivos Terraform necesarios para desplegar automáticamente 
 la infraestructura en AWS.
