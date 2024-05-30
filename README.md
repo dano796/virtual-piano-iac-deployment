@@ -58,7 +58,7 @@ mkdir ~/.aws
 2. Dentro de ese directorio, crea un archivo llamado `credentials`:
 
 ```bash
-touch ~/.aws/credentials
+nano ~/.aws/credentials
 ```
 
 3. Abre el archivo `credentials` en un editor de texto y añade tu `AWS CLI`, debe quedar algo así:
