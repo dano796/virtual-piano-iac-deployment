@@ -26,7 +26,7 @@ la infraestructura en AWS.
 Para clonar este repositorio, abre una terminal y ejecuta el siguiente comando:
 
 ```bash
-git clone https://github.com/dano796/ProyectoFinalDOA.git
+git clone https://github.com/dano796/virtual-piano-iac-deployment.git
 cd ProyectoFinalDOA/
 ```
 
