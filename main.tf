@@ -51,7 +51,7 @@ resource "aws_instance" "piano_instance" {
       sudo ufw allow 3000/tcp
       sudo ufw enable
       sudo apt install docker-compose -y
-      git clone https://github.com/dano796/ProyectoFinalDOA.git
+      git clone https://github.com/dano796/virtual-piano-iac-deployment.git
       cd ProyectoFinalDOA/
       sudo docker build -t piano:v01 .
       sudo docker run -d -p 3000:3000 piano:v01 npm start
