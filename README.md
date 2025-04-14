@@ -29,7 +29,7 @@ Para clonar este repositorio, abre una terminal y ejecuta el siguiente comando:
 
 ```bash
 git clone https://github.com/dano796/virtual-piano-iac-deployment.git
-cd ProyectoFinalDOA/
+cd virtual-piano-iac-deployment/
 ```
 
 ### 2. Instalar Terraform y Configurar la Cuenta de AWS
