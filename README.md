@@ -1,9 +1,11 @@
-# Piano Virtual
+# Despliegue Automatizado de Infraestructura en la nube de AWS
 
 ## Descripción
-Esta es una aplicación web que permite tocar un piano virtual. Esta aplicación está desarrollada con HTML, CSS y JavaScript y se despliega automáticamente en una instancia de AWS EC2 utilizando Docker y Terraform.
+Despliegue automático de infraestructura en la nube de AWS utilizando el enfoque de Infrastructure as Code (IaC). La infraestructura se aprovisiona automáticamente en una instancia EC2 mediante Terraform, y la aplicación se despliega en un contenedor usando Docker.
 
-El código fuente de la aplicación se puede encontrar en: [CodingNepal](https://www.codingnepalweb.com/playable-piano-html-css-javascript/#google_vignette).
+Como ejemplo práctico, se utiliza una aplicación web de un piano virtual desarrollada con HTML, CSS y JavaScript. Esta aplicación sirve como demostración del proceso completo de aprovisionamiento, despliegue y automatización.
+
+El código fuente de la aplicación web está disponible en: [CodingNepal](https://www.codingnepalweb.com/playable-piano-html-css-javascript/#google_vignette).
 
 ## Pasos para Desplegar
 ### Despliegue de la Aplicación
