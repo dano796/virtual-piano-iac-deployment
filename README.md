@@ -98,7 +98,7 @@ Una vez inicializada la instancia en AWS puedes verificar el funcionamiento de l
 desde un navegador web a través del puerto 3000, de la siguiente manera:
 `ip_instancia:3000`.
 
-## Gracias!
+---
 
 ### Daniel Ortiz Aristizábal 
-### ID 000186841
+### Telemática - Universidad Pontificia Bolivariana
