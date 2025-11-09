@@ -35,7 +35,7 @@ resource "aws_security_group" "piano_sg" {
 
 resource "aws_instance" "piano_instance" {
   ami           = "ami-0e001c9271cf7f3b9"  
-  instance_type = "t2.large"
+  instance_type = "t3.micro"
   key_name      = "llavepiano"
 
   security_groups = [aws_security_group.piano_sg.name]
@@ -52,7 +52,7 @@ resource "aws_instance" "piano_instance" {
       sudo ufw enable
       sudo apt install docker-compose -y
       git clone https://github.com/dano796/virtual-piano-iac-deployment.git
-      cd ProyectoFinalDOA/
+      cd virtual-piano-iac-deployment
       sudo docker build -t piano:v01 .
       sudo docker run -d -p 3000:3000 piano:v01 npm start
     EOF
